@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+       #vid1564730217{
+            position: absolute;
+            width: 500px;
+            height: 300px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+           
+           
+    
+        }
+
+        
+
+        body{
+
+           
+          background: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2020/09/Marvels-Spider-Man-.jpg) repeat no-repeat;
+        }
+        @media screen and (max-width: 490px) {
+    body {
+        background: url(https://image.tmdb.org/t/p/w342/kU0NbsUVoUMcYxoISmBCxFmgWYC.jpg)repeat no-repeat;
+    }
+
+    
+   
+    #vid1564730217{
+        width: 350px;
+        height: 200px;
+        
+
+        
+
+    }
+
+    @media screen and (max-width: 360px) {
+        #vid1564730217{
+        width: 285px;
+        height: 160px;
+        background-color: tomato;
+    }
+
+    @media screen and (max-width: 290px) {
+        #vid1564730217{
+        width: 260px;
+        height: 160px;
+        background-color: yellow;
+    }
+
+    
+   
+    
+    
+    </style>
+</head>
+
+<body>
+    
+     
+    <button class="btn-menu">sinopse</button>
+    <nav class="btn menu">
+      <a class="btn-close">x</a>
+    <ul>
+        <li>O O superastro do basquete LeBron James
+             se junta à gangue Looney Tunes para derrotar o
+              Goon Squad e salvar seu filho.
+          </li> <br>
+    
+          
+    
+            <li>Gênero: Drama, Ficção Científica, Fantasia
+            </li>
+        
+    </ul>
+    <ul class="tema">
+        
+        <p>Gênero: Drama, Ficção Científica, Fantasia</p>
+    </ul>
+    </nav>
+   
+
+
+   
+        <video id="vid1564730217"  preload="none" autobuffer poster="https://i.ytimg.com/vi/81SeeIxEunw/maxresdefault.jpg" controls controlsList="nodownload"
+        src="https://dls7rxd829s2x.cloudfront.net/data/a/4b4adeea.mp4" autoplay>
+        src="" autoplay>
+        
+            <source src="" type="video/mp4">
+        </video>
+        <button class="casa">voltar</button>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(".btn-menu").click(function(){$(".menu").show();});
+        $(".btn-close").click(function(){$(".menu").hide();});
+    
+    </script>
+</body>
+</html>
